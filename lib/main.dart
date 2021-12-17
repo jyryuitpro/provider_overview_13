@@ -20,8 +20,8 @@ class _MyAppState extends State<MyApp> {
 
   @override
   void dispose() {
-    super.dispose();
     _counter.dispose();
+    super.dispose();
   }
 
   @override
